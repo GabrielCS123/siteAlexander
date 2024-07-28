@@ -1,0 +1,382 @@
+/* principais */
+
+body {
+    background-color: rgb(0, 0, 0);
+}
+
+* {
+    padding: 0;
+    margin: 0;
+    font-family: "Sora", sans-serif;
+    color: white;
+}
+
+main {
+    width: auto;    
+}
+
+.titulo {
+    text-align: center;
+    margin: 3em 2em .5em 2em;
+}
+
+.tirulo__cor1 {
+    color: white;
+}
+
+.tirulo__cor2 {
+    color: rgb(127, 125, 125);
+}
+
+.container__principal {
+    background-color: black;
+    width: 100%;
+}
+
+/* container__apresentacao */
+
+.imagem__apresentacao img {
+    width: 25em;
+}
+
+.titulo__principal {
+    margin-bottom: 1em;
+}
+
+.imagem__apresentacao {
+    display: flex;
+    justify-content: center;
+}
+
+.container__principal__caixa__textos {
+    margin-top: 4em;
+    text-align: justify;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.container__principal__caixa__textos__principais {
+    margin: 0 4em;
+}
+
+.paragrafo__apresentacao {
+    margin-bottom: 2em;
+}
+
+.container__paragrafo__valor {
+    display: flex;
+    justify-content: center;
+}
+
+.paragrafo__valor {
+    font-weight: 700;
+    display: flex;
+    align-items: flex-start;
+}
+
+.paragrafo__valor__preco__antigo s {
+    color: rgb(255, 0, 0);
+}
+
+.paragrafo__valor__preco__novo {
+    font-size: 50px;
+    margin-top: -10px;
+    color: rgb(1, 247, 85);
+    text-wrap: nowrap;
+}
+
+.container__botao__compraragoramesmo {
+    margin: 4em 0 4em 0;
+}
+
+.botao__compraragoramesmo {
+    text-decoration: none;
+    font-weight: 700;
+    background-color: aqua;
+    background: linear-gradient(90deg,rgb(132, 131, 131), rgb(70, 70, 70));
+    border-radius: 8px;
+    padding: 19px;
+}
+
+/* container__cards__detalhes */
+
+.card__detalhe {
+    background: linear-gradient(130deg,rgb(0, 0, 0), rgb(70, 70, 70));
+    border: 2px solid rgb(69, 69, 69);
+    border-radius: 1em;
+    margin: 2em;
+    padding: 2em;
+}
+
+.card__detalhe__item {
+    margin-top: 1em;
+}
+
+/* container__videos */
+
+.video__incorporado {
+    margin: 1em;
+}
+
+.videos {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.container__videos iframe{ 
+    width: 100%;
+    height: 100%;
+    border-radius: 1em;
+}
+
+/* container__cards__detalhes */
+
+.container__bonus__paragrafo__tirulo {
+    margin-bottom: 8em;
+}
+
+.items__bonus {
+    display: flex;
+    flex-direction: column;
+    gap: 10em;
+}
+
+.caixa__bonus {
+    margin: 0 2em;
+}
+
+.caixa__bonus__borda {
+    border: 1px solid #292929;
+    background-color: #1C1C1C;
+    padding: 1em;
+    border-radius: 1em;
+}
+
+.caixa__bonus img {
+    width: 50%;
+    position: absolute;
+    left: 50%;
+    translate: -50% -50%;
+}
+
+.caixa__bonus__titulo {
+    margin: 5em 0 1em 0;
+}
+
+.caixa__bonus__texto {
+    margin: 1em 0;
+}
+
+.caixa__bonus__valor {
+    margin: 1em 0;
+}
+
+/* caixa__oferta */
+
+.caixa__oferta1 {
+    border: 1px solid #292929;
+    border-radius: 1em;
+    margin: 2em;
+    text-align: center;
+}
+
+.caixa__oferta1__titulo {
+    border-radius: 1em 1em 0 0;
+    background-color: #424141;
+    padding: 1em;
+}
+
+.caixa__oferta1__conteudo {
+    border-radius: 0 0 1em 1em;
+    background-color: #292929;
+    padding: 1em;
+}
+
+.titulo__ofertabasica {
+    font-size: 22px;
+}
+
+.caixa__oferta1__plano__basico {
+    font-size: 22px;
+}
+
+.caixa__oferta1__titulopreco {
+    font-size: 88px;
+}
+
+.caixa__oferta1__pagamentobasico {
+    font-size: 14px;
+    color: #7a7a7a;
+    padding-bottom: 2.5em;
+}
+
+.caixa__oferta1__conteudo p {
+    margin: .8em 0;
+}
+
+.caixa__oferta1__detalhes {
+    text-align: justify;
+    padding: 0 20px;
+}
+
+.caixa__oferta1__botao {
+    margin: 2em 0;
+}
+
+.caixa__oferta1__botao a {
+    display: inline-block;
+    width: 75%;
+    border: 1px solid white;
+    border-radius: 3px;
+    font-size: 14px;
+    font-weight: bold;
+    text-decoration: none;
+    padding: 21px;
+
+}
+
+.caixa__oferta2 {
+    border: 1px solid #292929;
+    border-radius: 1em;
+    margin: 2em;
+    text-align: center;
+}
+
+.caixa__oferta2__titulo {
+    border-radius: 1em 1em 0 0;
+    background-color: #424141;
+    padding: 1em;
+}
+
+.caixa__oferta2__conteudo {
+    border-radius: 0 0 1em 1em;
+    background-color: #292929;
+    padding: 1em;
+}
+
+.titulo__ofertamelhor {
+    font-size: 22px;
+}
+.caixa__oferta2__precoanterior {
+    font-size: 16px;
+    font-weight: bold;
+}
+
+.caixa__oferta2__precoanterior s {
+    color: rgb(255, 0, 0);
+}
+
+.caixa__oferta2__titulopreco {
+    font-size: 88px;
+}
+
+.caixa__oferta2__plano__melhor {
+    font-size: 22px;
+}
+
+.caixa__oferta2__pagamentomelhor {
+    font-weight: 100;
+    padding-bottom: 2em;
+}
+
+.caixa__oferta2__conteudo p {
+    margin: .8em 0;
+}
+
+.caixa__oferta2__detalhes {
+    text-align: justify;
+    padding: 0 20px;
+}
+
+.caixa__oferta2__botao {
+    margin: 2em 0;
+}
+
+.caixa__oferta2__botao a {
+    display: inline-block;
+    width: 75%;
+    border: 1px solid white;
+    border-radius: 3px;
+    font-size: 14px;
+    font-weight: bold;
+    text-decoration: none;
+    padding: 21px;
+
+}
+
+/* container__textos */
+
+.container__textos {
+    background-color: white;
+}
+
+.container__textos p,.container__textos h2 {
+    color: black;
+}
+
+.container__textos {
+    padding: 4em 2em;
+}
+
+.container__textos__titulo {
+    font-size: 14px;
+    margin: 0 1em 2em 1em;
+    text-align: center;
+}
+
+.container__textos__texto {
+    margin: 1em;
+    text-align: justify;
+}
+
+/* detalhes__acesso */
+
+.container__detalhespreco__textos p {
+    margin: 2em 5em;
+}
+
+.container__detalhespreco__textos {
+    text-align: justify;
+}
+
+/* container__nadaaperder */
+
+.container__nadaaperder__titulo {
+    margin-top: 0;
+}
+
+.container__nadaaperder__imagem {
+    text-align: center;
+}
+
+.container__nadaaperder {
+    display: flex;
+    flex-direction: column;
+}
+
+.container__nadaaperder p {
+    text-align: justify;
+    margin: 2em 2em;
+}
+
+/* container__botaomeconvenceu */
+
+.container__botaomeconvenceu {
+    text-align: center;
+    margin: 5em 0;
+}
+
+.container__botaomeconvenceu a {
+    background-color: #424141;
+    border-radius: 8px;
+    padding: 21px;
+    text-decoration: none;
+}
+
+/* footer */
+
+.rodape {
+    text-align: center;
+}
