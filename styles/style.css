@@ -37,6 +37,7 @@ main {
 
 .imagem__apresentacao img {
     width: 25em;
+    margin-bottom: 0;
 }
 
 .titulo__principal {
@@ -49,7 +50,7 @@ main {
 }
 
 .container__principal__caixa__textos {
-    margin-top: 4em;
+    margin-top: 1em;
     text-align: justify;
     display: flex;
     flex-direction: column;
