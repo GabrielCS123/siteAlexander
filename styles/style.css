@@ -20,11 +20,11 @@ main {
     margin: 3em 2em .5em 2em;
 }
 
-.tirulo__cor1 {
+.titulo__cor1 {
     color: white;
 }
 
-.tirulo__cor2 {
+.titulo__cor2 {
     color: rgb(127, 125, 125);
 }
 
@@ -134,7 +134,7 @@ main {
 
 /* container__cards__detalhes */
 
-.container__bonus__paragrafo__tirulo {
+.container__bonus__paragrafo__titulo {
     margin-bottom: 8em;
 }
 
