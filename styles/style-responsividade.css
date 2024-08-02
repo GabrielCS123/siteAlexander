@@ -1,0 +1,95 @@
+@media (min-width: 800px) {
+
+    /* container__apresentacao */
+
+    .imagem__apresentacao {
+        display: flex;
+        order: 2;
+        overflow: hidden;
+        position: relative;
+        width: 50em;
+        height: 20em;
+    }
+
+    .imagem__apresentacao img {
+        position: absolute;
+        width: 600px;
+        top: 50%;
+        left: 50%;
+        transform: translateX(-50%) translateY(-50%);
+    }
+
+    .container__apresentacao {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        margin: 4em 8em;
+    }
+
+    .container__principal__caixa__textos {
+        margin: 0;
+        align-items: start;
+    }
+
+    .container__principal__caixa__textos__principais {
+        margin: 0;
+    }
+
+    .titulo__principal,
+    .paragrafo__apresentacao {
+        text-align: initial;
+    }
+
+    .container__paragrafo__valor {
+        text-align: initial;
+    }
+
+    /* container__cards__detalhes */
+
+    .container__cards__detalhes {
+        margin: 0 8em;
+    }
+
+    .container__cards__detalhes1,
+    .container__cards__detalhes2 {
+        display: flex;
+    }
+
+    .videos1,
+    .videos2 {
+        display: flex;
+    }
+
+    .items__bonus {
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        grid-template-rows: 1fr 1fr;
+        margin: 0 10em;
+    }
+
+    .caixa__bonus {
+        position: relative;
+    }
+
+    .caixa__bonus__imagem img {
+        position: absolute;
+        width: 300px;
+    }
+
+    #caixa__bonus5 p {
+        margin-bottom: 68px;
+    }
+
+    /* caixa__oferta }*/
+
+    .container__ofertas {
+        display: flex;
+        justify-content: center;
+        gap: 10em;
+    }
+
+    .caixa__oferta1__botao {
+        margin-top: 78.5px;
+    }
+
+}
