@@ -1,4 +1,4 @@
-@media (min-width: 800px) {
+@media (min-width: 1100px) {
 
     /* container__apresentacao */
 
@@ -13,10 +13,18 @@
 
     .imagem__apresentacao img {
         position: absolute;
-        width: 600px;
+        width: 300px;
         top: 50%;
         left: 50%;
         transform: translateX(-50%) translateY(-50%);
+    }
+
+    .imagem__apresentacao #imagem1 {
+        display: none;
+    }
+
+    .imagem__apresentacao #imagem1-r {
+        display: block;
     }
 
     .container__apresentacao {
@@ -75,11 +83,6 @@
         position: absolute;
         width: 300px;
     }
-
-    #caixa__bonus5 p {
-        margin-bottom: 68px;
-    }
-
     /* caixa__oferta }*/
 
     .container__ofertas {

@@ -49,6 +49,10 @@ main {
     justify-content: center;
 }
 
+.imagem__apresentacao #imagem1-r {
+    display: none;
+}
+
 .container__principal__caixa__textos {
     margin-top: 1em;
     text-align: justify;
@@ -94,10 +98,14 @@ main {
 .botao__compraragoramesmo {
     text-decoration: none;
     font-weight: 700;
-    background-color: aqua;
     background: linear-gradient(90deg,rgb(132, 131, 131), rgb(70, 70, 70));
     border-radius: 8px;
     padding: 19px;
+    transition: padding .3s ease;
+}
+
+.botao__compraragoramesmo:hover {
+    padding: 25px;
 }
 
 /* container__cards__detalhes */
@@ -110,7 +118,7 @@ main {
     padding: 2em;
 }
 
-.card__detalhe__item {
+.card__detalhe p{
     margin-top: 1em;
 }
 
@@ -153,6 +161,11 @@ main {
     background-color: #1C1C1C;
     padding: 1em;
     border-radius: 1em;
+    transition: box-shadow 0.3s ease;
+}
+
+.caixa__bonus__borda:hover {
+    box-shadow: rgba(255, 255, 255, 0.35) 0px 0px 20px;
 }
 
 .caixa__bonus img {
@@ -235,7 +248,12 @@ main {
     font-weight: bold;
     text-decoration: none;
     padding: 21px;
+    transition: background-color 0.1s ease;
+}
 
+.caixa__oferta1__botao a:hover {
+    background-color: #7a7a7a1c;
+    border: 1px solid rgb(179, 172, 172);
 }
 
 .caixa__oferta2 {
@@ -304,11 +322,17 @@ main {
     font-weight: bold;
     text-decoration: none;
     padding: 21px;
+    transition: background-color 0.1s ease;
+}
 
+.caixa__oferta2__botao a:hover {
+    background-color: #7a7a7a1c;
+    border: 1px solid rgb(179, 172, 172);
 }
 
 /* container__textos */
 
+/*
 .container__textos {
     background-color: white;
 }
@@ -332,7 +356,7 @@ main {
     text-align: justify;
 }
 
-/* detalhes__acesso */
+detalhes__acesso
 
 .container__detalhespreco__textos p {
     margin: 2em 5em;
@@ -342,7 +366,7 @@ main {
     text-align: justify;
 }
 
-/* container__nadaaperder */
+container__nadaaperder
 
 .container__nadaaperder__titulo {
     margin-top: 0;
@@ -361,8 +385,9 @@ main {
     text-align: justify;
     margin: 2em 2em;
 }
+*/
 
-/* container__botaomeconvenceu */
+/* container__botaomeconvenceu
 
 .container__botaomeconvenceu {
     text-align: center;
@@ -375,9 +400,12 @@ main {
     padding: 21px;
     text-decoration: none;
 }
+*/
 
 /* footer */
 
 .rodape {
+    margin-top: 2em;
     text-align: center;
 }
+
