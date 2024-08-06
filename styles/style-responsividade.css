@@ -4,6 +4,7 @@
 
     .imagem__apresentacao {
         display: flex;
+        justify-content: flex-end;
         order: 2;
         overflow: hidden;
         position: relative;
@@ -12,11 +13,8 @@
     }
 
     .imagem__apresentacao img {
-        position: absolute;
+        position: relative;
         width: 300px;
-        top: 50%;
-        left: 50%;
-        transform: translateX(-50%) translateY(-50%);
     }
 
     .imagem__apresentacao #imagem1 {
@@ -83,6 +81,7 @@
         position: absolute;
         width: 300px;
     }
+
     /* caixa__oferta }*/
 
     .container__ofertas {
